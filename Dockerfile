@@ -28,7 +28,7 @@ RUN \
 # install unifi
  curl -o \
  /tmp/unifi.deb -L \
-	"https://dl.ubnt.com/unifi/5.9.16-23dd7b8e57/unifi_sysvinit_all.deb" && \
+	"https://dl.ubnt.com/unifi/5.9.22-d2a4718971/unifi_sysvinit_all.deb" && \
  dpkg -i /tmp/unifi.deb && \
 
 # cleanup
