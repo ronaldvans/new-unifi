@@ -28,7 +28,7 @@ RUN \
 # install unifi
  curl -o \
  /tmp/unifi.deb -L \
-	"https://fw-update.ubnt.com/api/firmware/2b60cec3-ae09-4139-81ab-25c2d68091df/data" && \
+	"https://dl.ui.com/unifi/5.11.26-1ecdee774d/unifi_sysvinit_all.deb" && \
  dpkg -i /tmp/unifi.deb && \
 
 # cleanup
