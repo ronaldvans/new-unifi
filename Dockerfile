@@ -6,7 +6,7 @@ ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
 # package versions
-ARG UNIFI_VER="5.11.18"
+ARG UNIFI_VER="5.11.34"
 
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
@@ -28,7 +28,7 @@ RUN \
 # install unifi
  curl -o \
  /tmp/unifi.deb -L \
-	"https://dl.ui.com/unifi/5.11.29-633651c4a7/unifi_sysvinit_all.deb" && \
+	"https://dl.ui.com/unifi/5.11.34-2def560057/unifi_sysvinit_all.deb" && \
  dpkg -i /tmp/unifi.deb && \
 
 # cleanup
